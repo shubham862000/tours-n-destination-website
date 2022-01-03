@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADVENTURE</title>
+        <!-- ====css=== -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- navbar-->
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>HOME</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About us</li>
+                <li class="ctn"><a  href="#"></a>Contact</li>
+
+            </ul>
+            <img src="menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The colourful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header>
+        <!-- ==events==-->
+        <section>
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="img1.png" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>hi everyone there,its trek of joy</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="img2.png" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>break is necessary take it n make it joy</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+            <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <div class="line"></div>
+            <p>“Travel is the only thing you buy that makes you richer” </p>
+            <a href="#" class="ctn">Learn More</a>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                    <div class="line"></div>
+                    <P>
+                        Travelling means going from one place to another in different purposes. They also explore to see the unseen and know the unknown. The travellers always travel the most beautiful places of the world which uphold the existence of nature
+                    </P>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="img3.png" alt="">
+                        <img src="img4.png" alt="">
+                        <img src="img5.png" alt="">
+                        <img src="img6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p>567 first avenue,NY 123456,mumbai,usa/ pphone:67777-897-897/Email:contact@gmail</p>
+            <p>copyright@2022 outddoor Adventure</p>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classlist.toggle('mobile-menu')   
+            })
+              
+        </script>
+    </body>
+</html>
